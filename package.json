@@ -1,6 +1,6 @@
 {
   "name": "cert-helper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "install certificate and verify",
   "main": "lib/index.js",
   "scripts": {
