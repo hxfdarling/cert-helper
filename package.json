@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint:style": "stylelint --fix src/**/*.{less,scss,css}",
-    "lint:js": "eslint --fix src --ext .js,.jsx"
+    "lint:style": "stylelint --fix lib/**/*.{less,scss,css}",
+    "lint:js": "eslint --fix lib --ext .js,.jsx"
   },
   "repository": {
     "type": "git",
