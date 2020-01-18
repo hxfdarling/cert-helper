@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint:style": "stylelint --fix lib/**/*.{less,scss,css}",
-    "lint:js": "eslint --fix lib --ext .js,.jsx"
+    "lint:js": "eslint --fix lib --ext .js,.jsx",
+    "release": "standard-version && git push -u --tags"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "husky": "^4.0.10",
     "lint-staged": "^9.5.0",
     "prettier": "^1.19.1",
+    "standard-version": "^7.0.1",
     "stylelint": "^13.0.0",
     "stylelint-config-css-modules": "^2.2.0",
     "stylelint-config-recommended": "^3.0.0",
